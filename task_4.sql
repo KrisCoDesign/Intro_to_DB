@@ -1,3 +1,3 @@
-SHOW DATABASES;
-USE alx_book_store;
-SELECT * FROM Books;
+
+SELECT Books FROM INFORMATION_SCHEMA.TABLES
+WHERE table_schema = 'alx_book_store';
